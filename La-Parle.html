@@ -1,0 +1,262 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Voucher La Perle</title>
+    <style>
+        @font-face {
+            font-family: "JTEnergyVariable";
+            src: url(assets/fonts/jt-bold.ttf);
+        }
+        @font-face {
+            font-family: "JTEnergyVariable";
+            src: url(assets/fonts/jt-placard.ttf);
+        }
+        body{
+            font-family: "JTEnergyVariable";
+        }
+        .page {
+            background: white;
+            display: block;
+            margin: 0 auto;
+            box-shadow: 0 0 0.5cm rgba(0,0,0,0.5);
+            width: 21cm;
+            height:17.8cm; 
+        }
+        @media print {
+            body, .page {
+                margin: 0;
+                box-shadow: none;
+                -webkit-print-color-adjust: exact !important;
+            }
+            .blue-section{
+                background-color: #008bd0;
+            }
+            footer{
+            background-color:#e4e4e4;
+        }
+        }
+        .blue-section{
+            width: 100%;
+            height: 132.1px;
+            background-color: #008bd0;
+            margin-bottom:20px;
+        }
+        .blue-section h3{
+            font-size: 21px;
+            font-weight: bold;
+            letter-spacing: 1.57px;
+            text-align: left;
+            color: #ffffff;
+            padding: 39px 30px 0px 30px;
+        }
+        .blue-section p{
+            font-size: 18px;
+            letter-spacing: 1.56px;
+            text-align: left;
+            color: #ffffff;
+            font-weight:bold;
+            padding-left: 30px;
+            margin-top: 10px;
+        }
+        strong,p,.data-bottom{
+            padding-left:30px;
+            padding-right:30px;
+        }
+        strong{
+            font-size: 14px;
+            font-weight: bold;
+            letter-spacing: 0.36px;
+            text-align: left;
+            color: #111111;
+        }
+        p{
+            font-size: 14px;
+            letter-spacing: 0.28px;
+            text-align: left;
+            color: #111111;
+        }
+        .barcode-section{
+            border: solid 1.2px #e4e4e4;
+            margin-left:30px;
+            margin-right:30px;
+            min-height:185px;
+            padding-top:15px;
+            padding-bottom:15px;
+        }
+        .barcode-section .left-section{
+            float:left;
+        }
+        .barcode-section .right-section{
+            float:right;
+            margin-right: 30px;
+            margin-top: 30px;
+        }
+        .barcode-section .right-section img{
+            width:139px;
+            height:139px;
+        }
+        .barcode-section table span{
+            font-size: 14px;
+            font-weight: bold;
+            letter-spacing: 0.28px;
+            text-align: left;
+            color: #7d7d7d;
+            padding:0px;
+        }
+        .barcode-section strong{
+            font-size:16px;
+        }
+        .barcode-section table p{
+            font-size: 16px;
+            letter-spacing: 0.32px;
+            text-align: left;
+            color: #111111;
+            margin:0px;
+        }
+        table {
+            border-collapse: collapse;
+            width: 100%;
+            margin:12px 10px 20px 22px;
+            }
+            td {
+            text-align: left;
+            padding: 8px;
+            padding-bottom: 0px;
+        }
+        .list-items strong{
+            float: left;
+            width:100%;
+            margin-bottom:20px;
+        }
+        .list-items ul li{
+            font-size: 12px;
+            font-weight: normal;
+            letter-spacing: 0.24px;
+            line-height: 1.67;
+            text-align: left;
+            color: #111111;
+            padding-right:40px;
+        }
+        .data-bottom{
+            width: 100%;
+            text-align: left;
+            float: left;
+            margin-top:20px;
+        }
+        .data-bottom div{
+            float:left;
+        }
+        .data-bottom div:first-of-type,
+        .data-bottom div:nth-of-type(4){
+            width:40%;
+        }
+        .data-bottom div:nth-of-type(2),
+        .data-bottom div:nth-of-type(3),
+        .data-bottom div:nth-of-type(5),
+        .data-bottom div:nth-of-type(6){
+            width:20%;
+        }
+        .data-bottom div:first-of-type{
+            width:40%;
+        }
+        .data-bottom span{
+            font-size: 14px;
+            font-weight: bold;
+            letter-spacing: 0.28px;
+            color: #7d7d7d;
+        }
+        footer{
+            background-color:#e4e4e4;
+            margin-top:20px;
+            padding-top:20px;
+            padding-bottom:30px;
+        }
+        .data-bottom p{
+            margin-top: 0px;
+            padding-left: 0px;
+        }
+        footer img{
+            width:150px;
+            display:block;
+            margin:auto;
+        }
+        footer p{
+            text-align: center;
+            font-size: 12px;
+            letter-spacing: 0.24px;
+            color: #111111;
+        }
+        .clearfix,
+        .clearfix:after{
+                display: block;
+                content: "";
+                clear: both;
+            }
+    </style>
+</head>
+<body>
+    <div class="page">
+        <!-- start blue section -->
+        <div class="blue-section">
+            <h3>La Perle by Dragone at Al Habtoor City, Dubai</h3>
+            <p>#LAPERLEDXB</p>
+        </div>
+        <!-- end blue section -->
+        <!-- start barcode section -->
+        <div class="barcode-section">
+            <div class="left-section">
+                <strong>Booking #: B2E-AC-141-240220</strong>
+                <table>
+                    <tr><td><span>Ticket Type</span></td><td><p>: Bronze Ticket</p></td></tr>
+                    <tr><td><span>Date of Show</span></td><td><p>: Tuesday, 25 Feb 2020</p></td></tr>
+                    <tr><td><span>Show Time</span></td><td><p>: 07:00 PM</p></td></tr>
+                    <tr><td><span>Guest Name</span></td><td><p>: Bushra Alarim</p></td></tr>
+                    <tr><td><span>Purchase Date</span></td><td><p> : Monday, 24 Feb 2020 09:53 PM</p></td></tr>
+                </table>
+            </div>
+            <div class="right-section">
+                    <img src="assets/images/barcode/barccode.jpg" alt="barcode">
+            </div>
+        </div>
+        <!-- end barcode section -->
+        <!-- start data-bottom -->
+        <div class="data-bottom">
+            <div class="single-div">
+                <span>Ticket #</span>
+                <p>12472810-7160119595567615650</p>
+            </div>            
+            <div class="single-div">
+                <span>Order #</span>
+                <p> 12472810</p>
+            </div>            
+            <div class="single-div">
+                <span>DTCM</span>
+                <p> 29410523232223</p>
+            </div>            
+            <div class="single-div">
+                <span>Map Zone</span>
+                <p>Bronze Section 209</p>
+            </div>            
+            <div class="single-div">
+                <span>Row - Seat</span>
+                <p> Q - 13</p>
+            </div>            
+            <div class="single-div">
+                <span>Ticket Count</span>
+                <p> 1 / 2</p>
+            </div>
+        </div>
+        <div class="clearfix"></div>
+        <!-- end data-bottom -->
+        <!-- start footer -->
+        <footer>
+            <img src="assets/images/logo.svg" alt="logo">
+            <p>1706, Al Manara Tower, Business Boy, Dubain UAE<br/>
+                P: 04 294 6060 | F: 04 294 6069 | M: 052 971 7425 | E: book@arabiahorizons.com </p>
+        </footer>
+        <!-- end footer -->
+    </div>
+</body>
+</html>
